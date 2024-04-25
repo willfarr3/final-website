@@ -1,0 +1,75 @@
+body {
+    background-color: red;
+}
+
+.header{
+    display: flex;
+    height: 120px;
+    border: solid palevioletred;
+    color: cyan;
+    background-color: palevioletred;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.fish {
+
+    color: cyan;
+}
+
+.elmo {
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.links {
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   
+}
+
+.store {
+    margin-right: 40px;
+}
+.guide {
+    margin-right: 40px;
+}
+.customer-service {
+    margin-right: 40px;
+}
+.tech-help {
+    margin-right: 40px;
+}
+
+.ssc {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px;
+    border: solid greenyellow;
+    background-color: greenyellow;
+    color: red;
+}
+
+.elm-1 {
+margin-right: 470px;
+}
+
+.elm-2 {
+  
+}
