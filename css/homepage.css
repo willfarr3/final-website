@@ -1,5 +1,7 @@
 body {
     background-color: red;
+    max-width: 1000px;
+    
 }
 
 .header{
@@ -37,15 +39,23 @@ body {
 
 .store {
     margin-right: 40px;
+    cursor: pointer;
 }
 .guide {
     margin-right: 40px;
+    cursor: pointer;
 }
 .customer-service {
     margin-right: 40px;
+    cursor: pointer;
 }
 .tech-help {
     margin-right: 40px;
+    cursor: pointer;
+}
+
+.extra {
+    cursor: pointer;
 }
 
 .ssc {
@@ -55,6 +65,7 @@ body {
     justify-content: center;
     align-items: center;
     align-self: center;
+    
 }
 
 .footer {
@@ -72,4 +83,8 @@ margin-right: 470px;
 
 .elm-2 {
   
+}
+
+.icons {
+   cursor: pointer;
 }
