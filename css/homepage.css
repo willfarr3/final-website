@@ -1,6 +1,6 @@
 body {
     background-color: red;
-    max-width: 1000px;
+    
    
 }
 
@@ -15,6 +15,7 @@ body {
     align-items: center;
     align-content: center;
 }
+
 .start-text {
     cursor: default;
 }
@@ -28,10 +29,7 @@ body {
     height: 250px;
     width: 500px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    
+  
 }
 
 .links {
@@ -39,9 +37,22 @@ body {
    flex-direction: row;
    align-items: center;
 }
-.links i {
+
+ #burger {
     font-size: 40px;
     display: none;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100px;
+    background-color: fuchsia;
+    border: solid black;
+    align-items: center;
+    align-self: center;
+
 }
 
 .store {
@@ -74,6 +85,7 @@ body {
     align-items: center;
     align-self: center;
    margin-left: 100px;
+   cursor: text;
 }
 
 .footer {
@@ -83,6 +95,10 @@ body {
     border: solid greenyellow;
     background-color: greenyellow;
     color: red;
+}
+
+.button { 
+    cursor: pointer;
 }
 
 .elm-1 {
@@ -102,8 +118,8 @@ margin-right: 470px;
     .links {
         display: none;
     }
-    .links i {
-        display: initial;
+    #burger {
        display: block;
     }
+   
 }
