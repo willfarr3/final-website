@@ -1,5 +1,8 @@
 const burger = document.getElementById('burger')
+const dropdown = document.getElementById('dropdown')
 
-burger.addEventListener('click',
+function  theFunction() {
+document.getElementById('burger').classList.toggle('show')
+}
 
-)
+
