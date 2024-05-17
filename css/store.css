@@ -46,3 +46,13 @@ body {
 .car-discriptor {
     font-size: xx-large;
 }
+.footer {
+    display: flex;
+    border: solid greenyellow;
+    background-color: greenyellow;
+    flex-direction: row;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+}
