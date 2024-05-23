@@ -1,5 +1,5 @@
-body {
-    background-color: purple;
+.body {
+    background-color: white;
 }
 
 .header {
@@ -12,8 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-bottom: 50px;
 }
-
 
 .links {
     display: flex;
@@ -25,13 +25,12 @@ body {
     margin-right: 40px;
     cursor: pointer;
 }
-.store {
+.guide {
     margin-right: 40px;
     cursor: pointer;
 }
 .customer-service {
     margin-right: 40px;
-    margin-left: 40px;
     cursor: pointer;
 }
 .tech-help {
@@ -42,28 +41,4 @@ body {
 .extra {
     cursor: pointer;
   margin-right: 40px;
-}
-
-.car-discriptor {
-    font-size: xx-large;
-}
-.footer {
-    display: flex;
-    border: solid greenyellow;
-    background-color: greenyellow;
-    flex-direction: row;
-}
-.icons {
-    display: flex;
-    flex-direction: column;
-}
-
-.main-passage {
-    display: flex;
-    flex-direction: row;
-}
-
-.about-us {
-    color: blueviolet;
-    
 }
