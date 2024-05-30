@@ -42,3 +42,12 @@
     cursor: pointer;
   margin-right: 40px;
 }
+
+.ans-1 {
+    display: flex;
+    margin-left: 40px;
+}
+.ans-2 {
+    display: flex;
+    margin-left: 40px;
+}
