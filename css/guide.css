@@ -30,7 +30,8 @@
     cursor: pointer;
 }
 .customer-service {
-    margin-right: 40px;
+    display: flex;
+    margin-left: 40px;
     cursor: pointer;
 }
 .tech-help {

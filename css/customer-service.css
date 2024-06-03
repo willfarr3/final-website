@@ -1,0 +1,54 @@
+.body {
+    background-color: lightblue;
+}
+
+.header {
+    display: flex;
+    /* height: 120px; */
+    border: solid palevioletred;
+    color: cyan;
+    background-color: palevioletred;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.links {
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.home {
+    margin-right: 40px;
+    cursor: pointer;
+}
+.store {
+    margin-right: 40px;
+    cursor: pointer;
+}
+.customer-service {
+    margin-right: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.help-button {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.outer-box {
+    display: flex;
+    flex-direction: column;
+}
+.people {
+    display: flex;
+    flex-direction: row;
+}
+
+.mugshot {
+    height: 50px;
+    width: 50px;
+}
