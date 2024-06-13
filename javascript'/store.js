@@ -1,10 +1,15 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const counterElement = document.getElementById('counter');
-    const incrementButton = document.getElementsById('incrementButton');
-    let count = 0;
 
-    incrementButton.addEventListener('click', () => {
-        count++;
-        counterElement.textContent = count;
+
+document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('button');
+    const popupMessage = document.getElementById('popupMessage');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            popupMessage.style.display = 'block';
+            setTimeout(() => {
+                popupMessage.style.display = 'none';
+            }, 2000);
+        });
     });
 });
